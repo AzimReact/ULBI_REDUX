@@ -4,7 +4,7 @@ import './App.scss';
 function App() {
 
   const dispatch = useDispatch()
-  const cash = useSelector( state => state.cash)
+  const cash = useSelector( state => state.cash.cash)
   console.log(cash);
 
   const addCash = (num) => {
