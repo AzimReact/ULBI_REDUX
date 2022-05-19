@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello redux...</h1>
+      <h1>Hello redux!</h1>
       <div style={{fontSize: '3rem'}}>{cash}</div>
       <div style={{display: 'flex'}}>
 
